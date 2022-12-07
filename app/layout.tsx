@@ -1,4 +1,5 @@
 import './globals.css'
+import Navbar from './Navbar'
 import Sidebar from './Sidebar'
 
 export default function RootLayout({
@@ -14,11 +15,12 @@ export default function RootLayout({
       */}
       <head />
       <body>
-        <div className="flex justify-between">
+        <div className="flex">
           <div className=''>
             <Sidebar />
           </div>
-          <div className='absolute left-80 p-10'>
+          <div className='p-10'>
+            <Navbar />
             {children}
           </div>
         </div>

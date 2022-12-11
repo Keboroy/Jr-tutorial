@@ -60,7 +60,7 @@ const Sidebar = () => {
                 </div>
                 <div className="absolute bottom-4">
                     <Link href="/Settings">
-                        <div className='flex items-center space-x-3 w-60 px-5 py-3 bg-[#296bb5] bg-opacity-50 rounded-lg'>
+                        <div className='flex items-center space-x-3 w-60 px-5 py-3 bg-indigo-800 hover:bg-indigo-900 hover:bg-opacity-75 bg-opacity-75 rounded-xl'>
                             <div>
                                 <Setting set="curved" primaryColor="white" />
                             </div>

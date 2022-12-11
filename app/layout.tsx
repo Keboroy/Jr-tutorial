@@ -9,19 +9,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
       <head />
       <body>
         <div className="flex">
-          <div className=''>
+          <div className='hidden md:block'>
             <Sidebar />
           </div>
-          <div className='p-10'>
-            <Navbar />
-            {children}
+          <div className='px-10 py-5 w-[100vw] h-screen overflow-y-auto overflow-x-hidden'>
+              <Navbar />
+            <div>
+              {children}
+            </div>
           </div>
         </div>
       </body>

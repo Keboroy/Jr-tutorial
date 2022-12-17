@@ -5,7 +5,7 @@ import Card from './Card'
 
 export default function Home() {
   return (
-    <main className='my-5 overflow-hidden'>
+    <main className='overflow-hidden'>
       <div className='hidden md:block'>
         <Banner />
       </div>

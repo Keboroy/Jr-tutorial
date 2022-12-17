@@ -18,7 +18,7 @@ const Sidebar = () => {
             <div className="flex flex-col">
                 <div className='flex flex-col space-y-3 mt-10'>
                     <Link href="/">
-                        <div className='flex items-center space-x-3 w-60 px-5 py-3 hover:bg-neutral-700 rounded-lg'>
+                        <div className='flex items-center space-x-3 w-60 px-5 py-3 bg-neutral-700 rounded-lg'>
                             <div className=''>
                                 <Home set="curved" primaryColor="white" />
                             </div>

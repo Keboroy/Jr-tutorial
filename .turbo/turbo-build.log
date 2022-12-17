@@ -1,0 +1,40 @@
+warning ..\..\..\..\package.json: No license field
+$ next build
+warn  - You have enabled experimental feature (appDir) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+info  - Thank you for testing `appDir` please leave your feedback at https://nextjs.link/app-feedback
+info  - Creating an optimized production build...
+info  - Compiled successfully
+info  - Linting and checking validity of types...
+info  - Collecting page data...
+info  - Generating static pages (0/8)
+info  - Generating static pages (2/8)
+info  - Generating static pages (4/8)
+info  - Generating static pages (6/8)
+info  - Generating static pages (8/8)
+info  - Finalizing page optimization...
+
+Route (app)                                Size     First Load JS
+┌ ○ /                                      0 B                0 B
+├ ○ /Courses                               143 B          66.5 kB
+├ ○ /Courses/Science                       312 B          71.3 kB
+├ ○ /Discover                              143 B          66.5 kB
+├ ○ /Settings                              143 B          66.5 kB
+└ ○ /Timetable                             141 B          66.5 kB
++ First Load JS shared by all              66.3 kB
+  ├ chunks/17-ad321138b83a4e8e.js          64.1 kB
+  ├ chunks/main-app-f7991bdf5a7d528d.js    200 B
+  └ chunks/webpack-b108319422b8489b.js     2.04 kB
+
+Route (pages)                              Size     First Load JS
+┌ ○ /404                                   179 B          81.1 kB
+└ λ /api/hello                             0 B            80.9 kB
++ First Load JS shared by all              80.9 kB
+  ├ chunks/main-db67cfa7bc282ae4.js        78.7 kB
+  ├ chunks/pages/_app-9f5490aa3d56632f.js  192 B
+  └ chunks/webpack-b108319422b8489b.js     2.04 kB
+
+λ  (Server)  server-side renders at runtime (uses getInitialProps or getServerSideProps)
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+

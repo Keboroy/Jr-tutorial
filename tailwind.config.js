@@ -3,9 +3,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./pages/**/*.{js,ts,jsx,tsx}",
-  "./app/**/*.{js,ts,jsx,tsx}"],
+    "./app/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      width: {
+        '84': '21rem',
+        '90': '22rem',
+
+      },
+    },
   },
   plugins: [],
 };

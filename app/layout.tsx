@@ -17,7 +17,7 @@ export default function RootLayout({
           </div>
           <div className='px-10 py-5 w-[100vw] h-screen overflow-y-auto overflow-x-hidden'>
               <Navbar />
-            <div>
+            <div className='my-5'>
               {children}
             </div>
           </div>

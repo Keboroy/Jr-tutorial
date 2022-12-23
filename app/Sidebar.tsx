@@ -1,12 +1,10 @@
 "use client"
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
-// import { useRouter } from 'next/router';
 import { Home, ArrowLeft, Setting, Calendar, Bookmark, Discovery } from 'react-iconly';
 const Sidebar = () => {
-    // const router = useRouter();
     return (
-        <div className='h-screen px-7 py-10 dark:bg-neutral-900 dark:text-white text-[#000]'>
+        <div className='h-screen px-7 py-10 dark:bg-[#111315] dark:text-white text-[#000]'>
             <div className='flex space-x-3 items-center' >
                 <div className=''>
                     <ArrowLeft set="curved" primaryColor="white" />

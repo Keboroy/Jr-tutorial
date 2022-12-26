@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { Scrollbars } from 'react-custom-scrollbar  s'
+import { Scrollbars } from 'react-custom-scrollbars'
 const Playlist = () => {
     return (
         <div className=''>

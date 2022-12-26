@@ -20,6 +20,7 @@ export default function Home() {
               <h1 className='text-2xl font-bold my-5 hover:text-[#e4e4e4]'>E-Textbooks</h1>
             </Link>
           </div>
+          {/* <Card /> */}
           <Ebok_card />
         </div>
       </div>

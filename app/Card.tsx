@@ -23,7 +23,7 @@ const Card = () => {
       
       <Link href="/Courses/Science">
         <div className='my-3 md:w-90 hover:bg-[#2a2a2a] bg-[#212121] rounded-xl'>
-          <Image src="https://bit.ly/3YANIRn" alt="Thumbnail" width={310} height={400} className="rounded-t-xl" />
+          <Image src="https://bit.ly/3YANIRn" alt="Thumbnail" width={310} height={400} className="rounded-t-xl w-full" />
           <div className="p-5 rounded-b-xl">
             <p className='text-sm text-slate-300 font-mono'>1hr 30min</p>
             <div className='flex justify-between'>

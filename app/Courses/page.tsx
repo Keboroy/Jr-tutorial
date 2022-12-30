@@ -13,6 +13,7 @@ const page = () => {
       <Card />
     </div>
   )
+
 }
 
 export default page

@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { Home, ArrowLeft, Setting, Calendar, Bookmark, Discovery } from 'react-iconly';
+import Image from 'next/image';
 const Sidebar = () => {
     return (
         <div className='h-screen px-7 py-10 dark:bg-[#111315] dark:text-white text-[#000]'>
@@ -25,7 +26,7 @@ const Sidebar = () => {
                             </div>
                         </div>
                     </Link>
-                    <Link href="/Discover">
+                    <Link href="/discover">
                         <div className='flex items-center space-x-3 w-60 px-5 py-3 hover:bg-neutral-700 rounded-lg'>
                             <div className=''>
                                 <Discovery set="curved" primaryColor="white" />
@@ -35,7 +36,7 @@ const Sidebar = () => {
                             </div>
                         </div>
                     </Link>
-                    <Link href="/Courses">
+                    <Link href="/courses">
                         <div className='flex items-center space-x-3 w-60 px-5 py-3 hover:bg-neutral-700 rounded-lg'>
                             <div className=''>
                                 <Bookmark set="curved" primaryColor="white" />
@@ -45,7 +46,7 @@ const Sidebar = () => {
                             </div>
                         </div>
                     </Link>
-                    <Link href="/Timetable">
+                    <Link href="/timetable">
                         <div className='flex items-center space-x-3 w-60 px-5 py-3 hover:bg-neutral-700 rounded-lg'>
                             <div className=''>
                                 <Calendar set="curved" primaryColor="white" />
@@ -57,7 +58,7 @@ const Sidebar = () => {
                     </Link>
                 </div>
                 <div className="absolute bottom-4">
-                    <Link href="/Settings">
+                    <Link href="/settings">
                         <div className='flex items-center space-x-3 w-60 px-5 py-3 bg-indigo-800 hover:bg-indigo-900 hover:bg-opacity-75 bg-opacity-75 rounded-xl'>
                             <div>
                                 <Setting set="curved" primaryColor="white" />

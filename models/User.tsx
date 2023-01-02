@@ -9,3 +9,5 @@ const UserSchema = new Schema({
     class: { type: Number },
     date: { type: Date, default: Date.now },
 }, { timestamps: true });
+
+export default mongoose.model('User', UserSchema);

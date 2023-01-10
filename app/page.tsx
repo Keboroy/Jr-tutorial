@@ -1,5 +1,4 @@
 "use client"
-import Image from 'next/image'
 import Link from 'next/link'
 import { Category, ChevronDown, ChevronUp, Discovery, Heart2, Star } from 'react-iconly'
 import Banner from './Banner'
@@ -24,7 +23,7 @@ export default function Home() {
             <div className="flex items-center space-x-3">
               <div className='flex flex-row space-x-2 justify-center py-1 px-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 rounded-full'>
                 <div className="p-2 bg-pink-200 rounded-full">
-                  <Category set="broken" primaryColor="gray"/>
+                  <Category set="broken" primaryColor="black"/>
                 </div>
                 <div className="text-center py-2" >
                   <span className='text-sm md:text-base hover:text-[#e1e1e1] '>New</span>
@@ -32,7 +31,7 @@ export default function Home() {
               </div>
               <div className='flex flex-row space-x-2 justify-center py-1 px-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 rounded-full'>
                 <div className="p-2 bg-pink-200 w-11 rounded-full">
-                  <Star set="broken" primaryColor="gray"/>
+                  <Star set="broken" primaryColor="black"/>
                 </div>
                 <div className="text-center py-2" >
                   <span className='text-sm md:text-base hover:text-[#e1e1e1] '>Popular</span>
@@ -40,7 +39,7 @@ export default function Home() {
               </div>
               <div className='flex flex-row space-x-2 justify-center py-1 px-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 rounded-full'>
                 <div className="p-2 bg-pink-200 rounded-full">
-                  <Heart2 set="broken" primaryColor="gray"/>
+                  <Heart2 set="broken" primaryColor="black"/>
                 </div>
                 <div className="text-center py-2" >
                   <span className='text-sm md:text-base hover:text-[#e1e1e1] '>Free</span>
@@ -48,7 +47,7 @@ export default function Home() {
               </div>
               <div className='flex flex-row space-x-2 justify-center py-1 px-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 rounded-full'>
                 <div className="p-2 bg-pink-200 rounded-full">
-                  <Discovery set="broken" primaryColor="gray"/>
+                  <Discovery set="broken" primaryColor="black"/>
                 </div>
                 <div className="text-center py-2" >
                   <span className='text-sm md:text-base hover:text-[#e1e1e1] '>Pro</span>
@@ -77,7 +76,7 @@ export default function Home() {
             <div className="flex items-center space-x-3">
               <div className='flex flex-row space-x-2 justify-center py-1 px-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 rounded-full'>
                 <div className="p-2 bg-pink-200 rounded-full">
-                  <Category set="broken" primaryColor="gray"/>
+                  <Category set="broken" primaryColor="black"/>
                 </div>
                 <div className="text-center py-2" >
                   <span className='text-sm md:text-base hover:text-[#e1e1e1] '>New</span>
@@ -85,7 +84,7 @@ export default function Home() {
               </div>
               <div className='flex flex-row space-x-2 justify-center py-1 px-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 rounded-full'>
                 <div className="p-2 bg-pink-200 w-11 rounded-full">
-                  <Star set="broken" primaryColor="gray"/>
+                  <Star set="broken" primaryColor="black"/>
                 </div>
                 <div className="text-center py-2" >
                   <span className='text-sm md:text-base hover:text-[#e1e1e1] '>Popular</span>
@@ -93,7 +92,7 @@ export default function Home() {
               </div>
               <div className='flex flex-row space-x-2 justify-center py-1 px-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 rounded-full'>
                 <div className="p-2 bg-pink-200 rounded-full">
-                  <Heart2 set="broken" primaryColor="gray"/>
+                  <Heart2 set="broken" primaryColor="black"/>
                 </div>
                 <div className="text-center py-2" >
                   <span className='text-sm md:text-base hover:text-[#e1e1e1] '>Free</span>
@@ -101,7 +100,7 @@ export default function Home() {
               </div>
               <div className='flex flex-row space-x-2 justify-center py-1 px-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 rounded-full'>
                 <div className="p-2 bg-pink-200 rounded-full">
-                  <Discovery set="broken" primaryColor="gray"/>
+                  <Discovery set="broken" primaryColor="black"/>
                 </div>
                 <div className="text-center py-2" >
                   <span className='text-sm md:text-base hover:text-[#e1e1e1] '>Pro</span>

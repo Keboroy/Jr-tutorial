@@ -1,7 +1,16 @@
 import React from 'react'
 import Image from 'next/image'
 import Playlist from '../playlist'
+
 const page = () => {
+  const opts = {
+    height: '390',
+    width: '640',
+    playerVars: {
+      // https://developers.google.com/youtube/player_parameters
+      autoplay: 1,
+    },
+  };
   return (
     <div className='my-5 flex md:justify-between md:flex-row flex-col md:space-x-5'>
       <div className='border-b border-[#0e0e0e]'>

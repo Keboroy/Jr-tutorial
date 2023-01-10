@@ -13,7 +13,6 @@ const Ebok_card = () => {
             <div className='flex justify-between items-center space-x-5 spaec-x- mt-2'>
               <div className='flex items-center space-x-2 dark:text-white text-base rounded-xl font-bold h-8'>
                 <Download set="bold" primaryColor="" size={28} />
-                <span>Download</span>
               </div>
               <div className='p-1 px-2 rounded-md bg-green-100 text-base text-stone-900 h-8 '>
                 <h2 className='font-bold'>Free</h2>
@@ -30,7 +29,6 @@ const Ebok_card = () => {
             <div className='flex justify-between items-center space-x-5 spaec-x- mt-2'>
               <div className='flex items-center space-x-2 dark:text-white text-base rounded-xl font-bold h-8'>
                 <Download set="bold" primaryColor="" size={28} />
-                <span>Download</span>
               </div>
               <div className='p-1 px-2 rounded-md bg-green-100 text-base text-stone-900 h-8 '>
                 <h2 className='font-bold'>Free</h2>
@@ -47,7 +45,6 @@ const Ebok_card = () => {
             <div className='flex justify-between items-center space-x-5 spaec-x- mt-2'>
               <div className='flex items-center space-x-2 dark:text-white text-base rounded-xl font-bold h-8'>
                 <Download set="bold" primaryColor="" size={28} />
-                <span>Download</span>
               </div>
               <div className='p-1 px-2 rounded-md bg-green-100 text-base text-stone-900 h-8 '>
                 <h2 className='font-bold'>Free</h2>
@@ -64,7 +61,6 @@ const Ebok_card = () => {
             <div className='flex justify-between items-center space-x-5 spaec-x- mt-2'>
               <div className='flex items-center space-x-2 dark:text-white text-base rounded-xl font-bold h-8'>
                 <Download set="bold" primaryColor="" size={28} />
-                <span>Download</span>
               </div>
               <div className='p-1 px-2 rounded-md bg-green-100 text-base text-stone-900 h-8 '>
                 <h2 className='font-bold'>Free</h2>
@@ -81,7 +77,6 @@ const Ebok_card = () => {
             <div className='flex justify-between items-center space-x-5 spaec-x- mt-2'>
               <div className='flex items-center space-x-2 dark:text-white text-base rounded-xl font-bold h-8'>
                 <Download set="bold" primaryColor="" size={28} />
-                <span>Download</span>
               </div>
               <div className='p-1 px-2 rounded-md bg-green-100 text-base text-stone-900 h-8 '>
                 <h2 className='font-bold'>Free</h2>
@@ -98,7 +93,6 @@ const Ebok_card = () => {
             <div className='flex justify-between items-center space-x-5 spaec-x- mt-2'>
               <div className='flex items-center space-x-2 dark:text-white text-base rounded-xl font-bold h-8'>
                 <Download set="bold" primaryColor="" size={28} />
-                <span>Download</span>
               </div>
               <div className='p-1 px-2 rounded-md bg-green-100 text-base text-stone-900 h-8 '>
                 <h2 className='font-bold'>Free</h2>
@@ -115,7 +109,6 @@ const Ebok_card = () => {
             <div className='flex justify-between items-center space-x-5 spaec-x- mt-2'>
               <div className='flex items-center space-x-2 dark:text-white text-base rounded-xl font-bold h-8'>
                 <Download set="bold" primaryColor="" size={28} />
-                <span>Download</span>
               </div>
               <div className='p-1 px-2 rounded-md bg-green-100 text-base text-stone-900 h-8 '>
                 <h2 className='font-bold'>Free</h2>
@@ -132,7 +125,6 @@ const Ebok_card = () => {
             <div className='flex justify-between items-center space-x-5 spaec-x- mt-2'>
               <div className='flex items-center space-x-2 dark:text-white text-base rounded-xl font-bold h-8'>
                 <Download set="bold" primaryColor="" size={28} />
-                <span>Download</span>
               </div>
               <div className='p-1 px-2 rounded-md bg-green-100 text-base text-stone-900 h-8 '>
                 <h2 className='font-bold'>Free</h2>

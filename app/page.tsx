@@ -54,7 +54,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="dropdown dropdown-end">
-                <div tabIndex={0} className="bg-[#0f0f0f] hover:bg-[#131313] rounded-lg px-4 h-10 space-x-1 flex items-center">
+                <div tabIndex={0} className="bg-[#0f0f0f] hover:bg-[#131313] rounded-lg px-4 h-10 space-x-1 flex items-center my-3">
                   <span className='text-[#c7c7c7] text-base md:text-lg'>Subject</span>
                   <ChevronDown set="light" size={18} />
                 </div>
@@ -107,7 +107,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="dropdown dropdown-end">
-                <div tabIndex={0} className="bg-[#0f0f0f] hover:bg-[#131313] rounded-lg px-4 h-10 space-x-1 flex items-center">
+                <div tabIndex={0} className="bg-[#0f0f0f] hover:bg-[#131313] rounded-lg px-4 h-10 space-x-1 my-3 flex items-center">
                   <span className='text-[#c7c7c7] text-base md:text-lg'>Subject</span>
                   <ChevronDown set="light" size={18} />
                 </div>

@@ -1,10 +1,9 @@
 import React from 'react'
-import Image from 'next/image'
-import girl from '../public/girl_studing.png'
+
 const Banner = () => {
   return (
-    <div className='h-60 p-10 rounded-2xl bg-[#212121]'>
-      {/* <h1 className='text-3xl font-bold'>Latest Announcement</h1> */}
+    <div className="h-72 rounded-2xl bg-uincorn">
+      {/* <h1 className='px-10 py-20 font-sans text-4xl text-white font-black'>Join the worlds best builders for a 6-week sprint</h1> */}
     </div>
   )
 }

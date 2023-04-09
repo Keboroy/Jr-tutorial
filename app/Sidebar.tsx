@@ -17,7 +17,7 @@ const Sidebar = () => {
             <div className="flex flex-col">
                 <div className='flex flex-col space-y-3 mt-10'>
                     <Link href="/">
-                        <div className={location.href.includes("/") ? 'flex items-center space-x-3 w-60 px-5 py-3 bg-[#1a1c1f] rounded-lg' : 'flex items-center space-x-3 w-60 px-5 py-3 hover:bg-[#1a1c1f] rounded-lg'}>
+                        <div className='flex items-center space-x-3 w-60 px-5 py-3 hover:bg-[#1a1c1f] rounded-lg'>
                             <div className=''>
                                 <Home set="curved" primaryColor="white" />
                             </div>
@@ -27,7 +27,7 @@ const Sidebar = () => {
                         </div>
                     </Link>
                     <Link href="/Discover">
-                        <div className={location.href.includes("/Discover") ? 'flex items-center space-x-3 w-60 px-5 py-3 bg-[#1a1c1f] rounded-lg' : 'flex items-center space-x-3 w-60 px-5 py-3 hover:bg-[#1a1c1f] rounded-lg'}>
+                        <div className='flex items-center space-x-3 w-60 px-5 py-3 hover:bg-[#1a1c1f] rounded-lg'>
                             <div className=''>
                                 <Discovery set="curved" primaryColor="white" />
                             </div>
@@ -37,7 +37,7 @@ const Sidebar = () => {
                         </div>
                     </Link>
                     <Link href="/Courses">
-                        <div className={location.href.includes("/Courses") ? 'flex items-center space-x-3 w-60 px-5 py-3 bg-[#1a1c1f] rounded-lg' : 'flex items-center space-x-3 w-60 px-5 py-3 hover:bg-[#1a1c1f] rounded-lg'}>
+                        <div className='flex items-center space-x-3 w-60 px-5 py-3 hover:bg-[#1a1c1f] rounded-lg'>
                             <div className=''>
                                 <Bookmark set="curved" primaryColor="white" />
                             </div>
@@ -47,7 +47,7 @@ const Sidebar = () => {
                         </div>
                     </Link>
                     <Link href="/Timetable">
-                        <div className={location.href.includes("/Timetable") ? 'flex items-center space-x-3 w-60 px-5 py-3 bg-[#1a1c1f] rounded-lg' : 'flex items-center space-x-3 w-60 px-5 py-3 hover:bg-[#1a1c1f] rounded-lg'}>
+                        <div className='flex items-center space-x-3 w-60 px-5 py-3 hover:bg-[#1a1c1f] rounded-lg'>
                             <div className=''>
                                 <Calendar set="curved" primaryColor="white" />
                             </div>

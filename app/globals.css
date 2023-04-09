@@ -5,3 +5,13 @@
     background: black;
     color: white;
   }
+  .login {
+    background: rgb(241, 161, 174);
+  }
+  .bg-uincorn{
+    background: url('https://bit.ly/3Z5AziU');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* opacity: 70%; */
+  }
